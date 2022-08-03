@@ -2,214 +2,179 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>John Baumert - Ongoing Pursuit of Knowledge</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
         type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand" href="#page-top">John Baumert</a>
-            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
-                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #625750;">
+        <div class="container-fluid" style="width: 80%;">
+            <a class="navbar-brand" href="#page-top">
+                <h1>John Baumert</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link .text-light" href="#portfolio">
+                            <h5>PORTFOLIO</h5>
+                        </a>
                     </li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#about">About</a></li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link .text-light" href="#about">
+                            <h5>ABOUT</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link .text-light" href="#contact">
+                            <h5>CONTACT</h5>
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- Masthead-->
-    <header class="masthead bg-primary text-white text-center">
+    <!-- Greeting -->
+    <section class="header">
         <div class="container d-flex align-items-center flex-column">
-            <!-- Masthead Avatar Image-->
-            <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
-            <!-- Masthead Heading-->
-            <h1 class="masthead-heading text-uppercase mb-0">Hello, I'm John</h1>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0">Designer - Programmer - Creator - Adventurer</p>
+            <img class="masthead-avatar" src="assets/img/avataaars.svg" />
+            <h1 class="masthead-heading">Hello, I'm John</h1>
+            <p class="masthead-subheading">Programmer - Designer - Creator - Adventurer</p>
         </div>
-    </header>
-    <!-- Portfolio Section-->
-    <section class="page-section portfolio" id="portfolio">
-        <div class="container">
-            <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
+    </section>
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container d-flex align-items-center flex-column">
+            <h1 class="page-section-heading text-center mb-0">PORTFOLIO</h1>
+            <br />
             <!-- Portfolio Grid Items-->
-            <div class="row justify-content-center">
+            <div class="row justify-content-center hover12">
                 <!-- Portfolio Item 1-->
                 <div class="col-md-6 col-lg-3 mb-5">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                    <div class="portfolio-item mx-auto text-center" data-bs-toggle="modal"
+                        data-bs-target="#portfolioModal1">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
                                 <i class="fas fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/cad.png" alt="..." />
+                        <div class="portfolio-hover">
+                            <figure>
+                                <img class="img-fluid" src="assets/img/portfolio/coding.png" alt="Code" />
+                            </figure>
+                            <span>Code</span>
+                        </div>
                     </div>
                 </div>
                 <!-- Portfolio Item 2-->
                 <div class="col-md-6 col-lg-3 mb-5">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                    <div class="portfolio-item mx-auto text-center" data-bs-toggle="modal"
+                        data-bs-target="#portfolioModal2">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
                                 <i class="fas fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/coding.png" alt="..." />
+                        <div class="portfolio-hover">
+                            <figure>
+                                <img class="img-fluid" src="assets/img/portfolio/cad.png" alt="Design" />
+                            </figure>
+                            <span>Design</span>
+                        </div>
                     </div>
                 </div>
                 <!-- Portfolio Item 3-->
                 <div class="col-md-6 col-lg-3 mb-5">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                    <div class="portfolio-item mx-auto text-center" data-bs-toggle="modal"
+                        data-bs-target="#portfolioModal3">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
                                 <i class="fas fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/fabricate.png" alt="..." />
+                        <div class="portfolio-hover">
+                            <figure>
+                                <img class="img-fluid" src="assets/img/portfolio/fabricate.png" alt="Create" />
+                            </figure>
+                            <span>Create</span>
+                        </div>
                     </div>
                 </div>
                 <!-- Portfolio Item 4-->
                 <div class="col-md-6 col-lg-3 mb-5">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                    <div class="portfolio-item mx-auto text-center" data-bs-toggle="modal"
+                        data-bs-target="#portfolioModal4">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
                                 <i class="fas fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/mountain.png" alt="..." />
+                        <div class="portfolio-hover">
+                            <figure>
+                                <img class="img-fluid" src="assets/img/portfolio/mountain.png" alt="Adventure" />
+                            </figure>
+                            <span>Adventure</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- About Section-->
-    <section class="page-section bg-primary text-white mb-0" id="about">
-        <div class="container">
-            <!-- About Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- About Section Content-->
-            <div class="row">
-                <div class="text-center mt-1">
-                    <p class="lead">
-                        I'm a lifelong learner who solves problems by teaching myself to find and create answers.
-                    </p>
-                </div>
-            </div>
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container d-flex align-items-center flex-column">
+            <h1>ABOUT</h1>
+            <p>
+            <h4>I'm a lifelong learner who solves problems by teaching myself to find and create answers.</h4>
+            </p>
         </div>
     </section>
-    <!-- Contact Section-->
-    <section class="page-section" id="contact">
-        <div class="container">
-            <!-- Contact Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Contact Section Form-->
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-xl-7">
-                    <script src="https://www.cognitoforms.com/f/seamless.js" data-key="hwa1d2tuv0apS3Yg-dykZA"
-                        data-form="1"></script>
-                </div>
-            </div>
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container d-flex align-items-center flex-column">
+            <h1>CONTACT ME</h1>
+            <script src="https://www.cognitoforms.com/f/seamless.js" data-key="hwa1d2tuv0apS3Yg-dykZA"
+                data-form="1"></script>
         </div>
     </section>
-    <!-- Footer-->
-    <footer class="footer text-center">
-        <div class="container">
-            <div class="row">
-                <!-- Footer Location-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <!-- <h4 class="text-uppercase mb-4">Location</h4>
-                    <p class="lead mb-0">
-                        329 Sycamore Ave
-                        <br />
-                        Eaton, CO 80615
-                    </p> -->
-                </div>
-                <!-- Footer Social Icons-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Around the Web</h4>
-                    <!-- <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a> -->
-                    <a class="btn btn-outline-light btn-social mx-1"
-                        href="https://www.linkedin.com/in/john-baumert-tech/" target="_blank"><i
-                            class="fab fa-fw fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/baumertjohn"
-                        target="_blank"><i class="fab fa-fw fa-github"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/john.baumert.52"
-                        target="_blank"><i class="fab fa-fw fa-facebook-f"></i></a>
-                    <!-- <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a> -->
-                </div>
-                <!-- Footer About Text-->
-                <div class="col-lg-4">
-                    <!-- <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                    <p class="lead mb-0">
-                        Freelance is a free to use, MIT licensed Bootstrap theme created by
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
-                        .
-                    </p> -->
-                </div>
-            </div>
+    <!-- Web Links -->
+    <section class="web-links">
+        <h2>AROUND THE WEB</h2>
+        <div>
+            <a class="btn btn-outline-light btn-circle btn-xl mx-1"
+                href="https://www.linkedin.com/in/john-baumert-tech/" target="_blank">
+                <i class="fab fa-fw fa-linkedin-in"></i>
+            </a>
+            <a class="btn btn-outline-light btn-circle btn-xl mx-1" href="https://github.com/baumertjohn"
+                target="_blank">
+                <i class="fab fa-fw fa-github"></i>
+            </a>
+            <a class="btn btn-outline-light btn-circle btn-xl mx-1" href="https://www.facebook.com/john.baumert.52"
+                target="_blank">
+                <i class="fab fa-fw fa-facebook-f"></i>
+            </a>
         </div>
-    </footer>
-    <!-- Copyright Section-->
-    <div class="copyright py-4 text-center text-white">
-        <div class="container">
-            <small>Copyright &copy; John Baumert 2022</small>
-        </div>
-    </div>
+    </section>
+    <!-- Footer -->
+    <section class="copyright">
+        <small>Copyright &copy; John Baumert 2022</small>
+    </section>
     <!-- Portfolio Modals-->
     <!-- Portfolio Modal 1-->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
@@ -224,28 +189,39 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Computer Aided
-                                    Design</h2>
-                                <!-- Icon Divider-->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                    <div class="divider-custom-line"></div>
-                                </div>
+                                <h2 class="portfolio-modal-title text-secondary mb-1">Computer Programming </h2>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cad.png" alt="..." />
+                                <img class="img-fluid rounded mb-0" src="assets/img/portfolio/coding.png" alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">
-                                    Throughout my manufacturing career I've utilized various CAD programs including
-                                    AutoCAD Inventor,
-                                    AutoCAD, Solidworks and countless others. This knowledge has allowed me to create
-                                    various products
-                                    with precision.
-                                </p>
-                                <button class="btn btn-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-times fa-fw"></i>
-                                    Close Window
-                                </button>
+                                <p class="mb-2"> From disassembling a computer as a kid to "see how it works", writing
+                                    code in BASIC as a teenager, to a revived interest in programming, I've always been
+                                    a technophile. I now spend my free time focusing on Python, HTML, and other
+                                    programming languages. </p>
+                                <p class="mb=0 fw-bold">Example Projects:</p>
+                                <div>
+                                    <ul class="list-group list-group-flush mb=1">
+                                        <li class="list-group-item link-secondary">
+                                            <a href="https://todo.baumert.tech" target="_blank">todo.baumert.tech</a>
+                                            <br>
+                                            <span>A simple Todo web application with login.</span>
+                                        </li>
+                                        <li class="list-group-item link-secondary">
+                                            <a href="https://brewery.baumert.tech/"
+                                                target="_blank">brewery.baumert.tech/</a>
+                                            <br>
+                                            <span>A website that utilities a third party API for data.</span>
+                                        </li>
+                                        <li class="list-group-item link-secondary">
+                                            <a href="https://image.baumert.tech/"
+                                                target="_blank">image.baumert.tech/</a>
+                                            <br>
+                                            <span>A website that finds the most common colors in an uploaded
+                                                image.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="btn btn-secondary" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i> Close Window </button>
                             </div>
                         </div>
                     </div>
@@ -266,28 +242,15 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Computer
-                                    Programming</h2>
-                                <!-- Icon Divider-->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                    <div class="divider-custom-line"></div>
-                                </div>
+                                <h2 class="portfolio-modal-title text-secondary mb-1">Computer Aided Design </h2>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/coding.png" alt="..." />
+                                <img class="img-fluid rounded mb-0" src="assets/img/portfolio/cad.png" alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">
-                                    From disassembling a computer as a kid to "see how it works", writing code in BASIC
-                                    as a teenager,
-                                    to a revived interest in programming, I've always been a technophile. I now spend my
-                                    free time
-                                    focusing on Python, HTML, and other programming languages.
-                                </p>
-                                <button class="btn btn-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-times fa-fw"></i>
-                                    Close Window
-                                </button>
+                                <p class="mb-2"> Throughout my manufacturing career I've utilized various CAD programs
+                                    including AutoCAD Inventor, AutoCAD, Solidworks and countless others. This knowledge
+                                    has allowed me to create various products with precision. </p>
+                                <button class="btn btn-secondary" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i> Close Window </button>
                             </div>
                         </div>
                     </div>
@@ -308,29 +271,16 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Metal Fabrication
-                                </h2>
-                                <!-- Icon Divider-->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                    <div class="divider-custom-line"></div>
-                                </div>
+                                <h2 class="portfolio-modal-title text-secondary mb-1">Metal Fabrication </h2>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/fabricate.png"
+                                <img class="img-fluid rounded mb-0" src="assets/img/portfolio/fabricate.png"
                                     alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">
-                                    What started as a need to do some basic automotive repair has turned to a love for
-                                    working with my
-                                    hands to create. From metal art to Jeep projects, it's always a satisfaction to see
-                                    the finished
-                                    product.
-                                </p>
-                                <button class="btn btn-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-times fa-fw"></i>
-                                    Close Window
-                                </button>
+                                <p class="mb-2"> What started as a need to do some basic automotive repair has turned to
+                                    a love for working with my hands to create. From metal art to Jeep projects, it's
+                                    always a satisfaction to see the finished product. </p>
+                                <button class="btn btn-secondary" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i> Close Window </button>
                             </div>
                         </div>
                     </div>
@@ -351,26 +301,15 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Outdoor Adventures
-                                </h2>
-                                <!-- Icon Divider-->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                    <div class="divider-custom-line"></div>
-                                </div>
+                                <h2 class="portfolio-modal-title text-secondary mb-1">Outdoor Adventures </h2>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/mountain.png" alt="..." />
+                                <img class="img-fluid rounded mb-0" src="assets/img/portfolio/mountain.png" alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">
-                                    Whether hiking to an alpine lake or accomplishing a mountain summit, when calm and
-                                    serenity from day
-                                    to day life is needed the outdoors always deliver.
+                                <p class="mb-2"> Whether hiking to an alpine lake or accomplishing a mountain summit,
+                                    when calm and serenity from day to day life is needed the outdoors always deliver.
                                 </p>
-                                <button class="btn btn-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-times fa-fw"></i>
-                                    Close Window
-                                </button>
+                                <button class="btn btn-secondary" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i> Close Window </button>
                             </div>
                         </div>
                     </div>
@@ -378,8 +317,9 @@
             </div>
         </div>
     </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
