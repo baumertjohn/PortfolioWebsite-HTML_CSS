@@ -26,6 +26,7 @@ section {
   top: calc(50% - 25px);
   bottom: 0;
   margin: auto;
+  cursor: pointer;
 }
 
 /* Opacity #2 */
@@ -42,6 +43,7 @@ section {
 
 .hover12 :hover img {
   opacity: 0.05;
+  cursor: pointer;
 }
 
 .header {
