@@ -46,33 +46,39 @@ section {
   cursor: pointer;
 }
 
+.navbar-dark {
+  background-color: #2b7a78;
+}
+
 .header {
   height: 550px;
   padding: 100px;
-  background: #c6bcb6;
+  background: #3aafa9;
   color: white;
 }
 
 .portfolio {
   padding: 60px 0px 10px;
+  background: #def2f1;
 }
 
 .about {
   height: 300px;
   text-align: center;
-  background: #c6bcb6;
+  background: #3aafa9;
   color: white;
   padding-top: 80px;
 }
 
 .contact {
   padding: 50px;
+  background: #def2f1;
   color: #625750;
 }
 
 .web-links {
   height: 300px;
-  background: #96897f;
+  background: #3aafa9;
   color: white;
   text-align: center;
   padding: 100px;
@@ -80,7 +86,7 @@ section {
 
 .copyright {
   height: 75px;
-  background: #625750;
+  background: #2b7a78;
   color: white;
   display: flex;
   justify-content: center; /* align horizontal */
