@@ -7,7 +7,42 @@ section {
 }
 
 a {
-  color: #2b7a78;
+  color: #1976d2;
+}
+
+hr {
+  border: none;
+  height: 3px;
+  /* background-color: #bdbdbd; */
+  background: linear-gradient(#9e9e9e, #bdbdbd);
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-dark {
+  background-color: #1976d2;
+}
+
+.nav-link {
+  color: #ffffff;
+  padding-top: 15px;
+}
+
+.header {
+  height: 550px;
+  padding: 100px;
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.portfolio {
+  padding: 60px 0px 10px;
+  background: #bbdefb;
+}
+
+.portfolio h1 {
+  padding-bottom: 25px;
+  color: #212121;
 }
 
 .portfolio-hover {
@@ -35,7 +70,7 @@ a {
 
 /* Opacity #2 */
 .hover12 figure {
-  background: #3aafa9;
+  background: #2196f3;
   border-radius: 10px;
 }
 
@@ -50,29 +85,9 @@ a {
   cursor: pointer;
 }
 
-.navbar-dark {
-  background-color: #2b7a78;
-}
-
-.header {
-  height: 550px;
-  padding: 100px;
-  background: #3aafa9;
-  color: white;
-}
-
-.portfolio {
-  padding: 60px 0px 10px;
-  background: #def2f1;
-}
-
 .modal-content,
 .list-group-item {
-  background: #def2f1;
-}
-
-.portfolio h1 {
-  padding-bottom: 25px;
+  background: #bbdefb;
 }
 
 .modal-img {
@@ -82,32 +97,23 @@ a {
 .about {
   height: 300px;
   text-align: center;
-  background: #3aafa9;
+  background: #2196f3;
   color: white;
   padding-top: 80px;
 }
 
 .contact {
   padding: 50px;
-  background: #def2f1;
-  color: #625750;
+  background: #bbdefb;
+  color: #212121;
 }
 
 .web-links {
   height: 300px;
-  background: #3aafa9;
-  color: white;
+  background: #2196f3;
+  color: #ffffff;
   text-align: center;
   padding: 100px;
-}
-
-.copyright {
-  height: 75px;
-  background: #2b7a78;
-  color: white;
-  display: flex;
-  justify-content: center; /* align horizontal */
-  align-items: center; /* align vertical */
 }
 
 .btn-circle.btn-xl {
@@ -118,4 +124,15 @@ a {
   border-width: 2px;
   font-size: 25px;
   text-align: center;
+}
+
+.copyright {
+  height: 75px;
+  background: #1976d2;
+  color: #212121;
+  display: flex;
+  justify-content: center;
+  /* align horizontal */
+  align-items: center;
+  /* align vertical */
 }
