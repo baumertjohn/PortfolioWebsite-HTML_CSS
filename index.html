@@ -57,9 +57,20 @@
         <div class="container d-flex align-items-center flex-column">
             <img src="assets/img/avataaars.svg" />
             <h1>Hello, I'm John</h1>
-            <p>
-            <h4>Programmer - Designer - Creator - Adventurer</h4>
-            </p>
+            <div class="row">
+                <div class="col text-center">
+                    <h4>Programmer</h4>
+                </div>
+                <div class="col text-center">
+                    <h4>Designer</h4>
+                </div>
+                <div class="col text-center">
+                    <h4>Creator</h4>
+                </div>
+                <div class="col text-center">
+                    <h4>Adventurer</h4>
+                </div>
+            </div>
         </div>
     </section>
     <hr>
@@ -126,7 +137,7 @@
     <section id="contact" class="contact">
         <div class="container d-flex align-items-center flex-column">
             <div class="col-md-6 col-lg-3 mb-5">
-                <h1 class="text-center">CONTACT ME</h1>
+                <h1 class="page-section-heading text-center mb-1">CONTACT ME</h1>
                 <form action="https://api.web3forms.com/submit" method="POST" id="contactForm"
                     onSubmit="document.getElementById('submit').disabled=true; document.getElementById('submit').innerHTML = 'Thank You'">
                     <input type="hidden" name="access_key" value="3dc25212-3772-423d-b078-9b714e80bfb7" />
